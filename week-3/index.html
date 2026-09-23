@@ -1,11 +1,64 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-
-</body>
+<html lang="en"
+      <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <title>Week 3 Media CSS</title>
+     <meta name="description" content="this week we'll look into CSS and styling" />
+     <meta name="robots" content="nofollow, noindex" />
+<!-- add our CSS -->
+          <link rel="stylesheet" href="./css/style.css"/>
+      </head>
+    <body>
+        <header>
+            <img src="./img/lorem-logo.png" alt="header logo" />
+            <nav>
+                <menu>
+                    <li><a href="index.html">Link one</a></li>
+                    <li><a href="index.html">Link two</a></li>
+                    <li><a href="index.html">Link three</a></li>
+                </menu>
+            </nav>
+        </header>
+<!-- the main text of this page -->
+<main>
+<!-- This first section of content is called a hero/masthead -->
+<section>
+    <div>
+        <h1>This is an introduction title</h1>
+    </div>
+</section>
+<section>
+<!-- Colummn 1 -->
+    <div>
+        <figure>
+            <img src="./img/toronto.jpg" alt="Toronto skyline" />
+            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit ab accusantium aliquid architecto aspernatur at atque.</figcaption>
+        </figure>
+    </div>
+<!-- Column 2 -->
+    <div>
+        <h2>I am title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ab accusantium aliquid architecto aspernatur at atque beatae blanditiis commodi consequatur consequuntur corporis cumque cupiditate debitis delectus deleniti deserunt dicta dignissimos distinctio dolore dolorem doloremque dolores doloribus dolorum ducimus ea eaque earum eligendi enim error esse eum eveniet excepturi exercitationem expedita explicabo facere facilis fuga fugiat fugit harum hic id illo impedit in incidunt inventore ipsa ipsam.</p>
+    </div>
+</section>
+<!-- Our next row of content will hold our videos -->
+<section>
+    <div>
+        <h3>I am video 3</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FF34UR1UGX0?si=_zLRrP6f0eH1AsPv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h3>HTML Video Player Example</h3>
+        <video controls loop autoplay poster="./img/toronto.jpg">
+            <source src="./video/toronto.mp4" type="video/mp4" />
+            Your browser sucks upgrade the damn thing
+        </video>
+    </div>
+</section>
+</main>
+  <footer>
+     <h6>&copy; Week 3 Lesson</h6>
+  </footer>
+    </body>
 </html>
