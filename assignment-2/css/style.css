@@ -1,0 +1,18 @@
+
+/* font #1 */
+.isometra-regular {
+    font-family: "Isometra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.henny-penny-regular {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Isometra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
