@@ -21,7 +21,7 @@
     font-style: normal;
 }
 
-.cormorant-<uniquifier > {
+.cormorant-regular {
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -48,7 +48,7 @@ h2 {
 .header-band {
     display: flex;
     justify-content: center;
-    font-family: "Babylonica", system-ui;
+    font-family: "Babylonica", cursive;
     font-weight: 500;
     font-size: 3rem;
     font-style: normal;
@@ -79,7 +79,7 @@ h2 {
 }
 
 .lyric-block3, .lyric-block6 {
-    font-family: "Cormorant", system-ui;
+    font-family: "Cormorant", serif;
     color: #EFBF04;
     font-weight: 250;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
@@ -98,7 +98,7 @@ h2 {
 }
 
 .lyric-block8 {
-    font-family: "Jim Nightshade", system-ui;
+    font-family: "Jim Nightshade", cursive;
     color: #301934;
     font-weight: 250;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -109,7 +109,7 @@ h2 {
 }
 
 .lyric-block9 {
-    font-family: "Jim Nightshade", system-ui;
+    font-family: "Jim Nightshade", cursive;
     font-weight: 250;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     letter-spacing: 1px;
@@ -119,7 +119,7 @@ h2 {
 }
 
 .lyric-block10 {
-    font-family: "Jim Nightshade", system-ui;
+    font-family: "Jim Nightshade", cursive;
     font-weight: 250;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     letter-spacing: 2px;
