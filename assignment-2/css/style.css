@@ -61,8 +61,33 @@ h2 {
     }
 
 .lyric-block1 {
-    display: flex;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.lyric-block2 {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.lyric-block3, .lyric-block6 {
     font-family: "Cormorant", system-ui;
     font-weight: 250;
     font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.lyric-block4, .lyric-block5, .lyric-block7 {
+    font-family: "Jim Nightshade", system-ui;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
