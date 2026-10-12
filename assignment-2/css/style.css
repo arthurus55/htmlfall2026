@@ -21,6 +21,13 @@
     font-style: normal;
 }
 
+.cormorant-<uniquifier > {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 h1 {
     font-family: "Isometra", serif;
     font-weight: 400;
@@ -40,5 +47,10 @@ h2 {
     font-family: "Babylonica", system-ui;
     font-weight: 500;
     font-size: 3rem;
+    font-style: normal;
+}
+.lyric-block3, .lyric-block6 {
+    font-family: "Cormorant", system-ui;
+    font-weight: 250;
     font-style: normal;
 }
