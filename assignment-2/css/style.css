@@ -1,5 +1,5 @@
 
-/* font #1 */
+/* fonts */
 .isometra-regular {
     font-family: "Isometra", serif;
     font-weight: 400;
@@ -31,7 +31,7 @@
 body {
     background-color: #FAE6FA;
 }
-
+/* headers */
 h1 {
     font-family: "Isometra", serif;
     font-weight: 400;
@@ -54,12 +54,14 @@ h2 {
     font-style: normal;
 }
 
+/* remove bullet dots*/
     ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
     }
 
+    /* lyric blocks*/
 .lyric-block1 {
     font-family: "Henny Penny", system-ui;
     font-weight: 250;
@@ -78,7 +80,9 @@ h2 {
 
 .lyric-block3, .lyric-block6 {
     font-family: "Cormorant", system-ui;
+    color: #EFBF04;
     font-weight: 250;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     font-style: normal;
     font-size: 2rem;
     margin-bottom: 15px;
@@ -86,8 +90,47 @@ h2 {
 
 .lyric-block4, .lyric-block5, .lyric-block7 {
     font-family: "Jim Nightshade", system-ui;
-    font-weight: 250;
+    color: #301934;
+    font-weight: 350;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 15px;
 }
+
+.lyric-block8 {
+    font-family: "Jim Nightshade", system-ui;
+    color: #301934;
+    font-weight: 250;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.lyric-block9 {
+    font-family: "Jim Nightshade", system-ui;
+    font-weight: 250;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.lyric-block10 {
+    font-family: "Jim Nightshade", system-ui;
+    font-weight: 250;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+    font-style: normal;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+    /* styling emotional */
+    .red {
+        color: #ff0000;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
