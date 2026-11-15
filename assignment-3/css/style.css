@@ -4,11 +4,18 @@
     box-sizing: border-box;
   }
 /* fonts */
+.voces-regular {
+    font-family: "Voces", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
 .lato-thin {
     font-family: "Lato", sans-serif;
@@ -22,6 +29,13 @@
     font-style: normal;
 }
 
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* background image */
 body {
     background-image: url("../img/alienromulus.jpg");
     background-repeat: no-repeat;
@@ -29,4 +43,99 @@ body {
     background-size: auto 100%;
     background-attachment: fixed;
     background-color: #070707;
+}
+/* general paragraph text*/
+p {
+    font-family: "Voces", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+
+  
+}
+/* header */
+header {
+    position: relative;
+    top: 30px;
+    font-size: 10px;
+}
+
+.thin-font-header {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6px;
+    font-stretch: 50%;
+    transform: scaleY(1.5);
+    transform: scaleX(1.0);
+}
+
+/* movie title*/
+
+h1 {
+    position: relative;
+    top: 650px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.alien {
+    display: inline-block;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    left: 300px;
+    letter-spacing: 55px;
+    transform:scaleX(1.0);
+    transform: scaleY(0.6);
+}
+
+.romulus {
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    left: 250px;
+    font-family: "Voces", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 15px;
+    transform: scaleY(0.4);
+}
+
+.bottom-text {
+    position: relative;
+    top: 670px;
+    font-size: 8px;
+    text-align: justify;
+}
+
+.thin-font {
+    display: inline-block;
+    font-family: "lato", sans-serif;
+    font-size: 8.5px;
+    transform: scaleY(0.8) scaleX(0.8);
+}
+
+.scott-free {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4px;
+}
+
+h2 {
+    position: relative;
+    top: 680px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+}
+
+.august {
+    font-size: 25px;
 }
