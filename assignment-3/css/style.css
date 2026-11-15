@@ -83,10 +83,12 @@ h1 {
 }
 .alien {
     display: inline-block;
+    position: relative;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-size: 80px;
-    left: 300px;
+    font-size: 82.5px;
+    left: 35px;
+    top: -20px;
     letter-spacing: 55px;
     transform:scaleX(1.0);
     transform: scaleY(0.6);
@@ -94,19 +96,20 @@ h1 {
 
 .romulus {
     display: inline-block;
-    position: absolute;
+    position: relative;
     bottom: -20px;
-    left: 250px;
+    left: 20px;
+    top: -50px;
     font-family: "Voces", sans-serif;
     font-weight: 400;
     font-size: 40px;
-    letter-spacing: 15px;
-    transform: scaleY(0.4);
+    letter-spacing: 52.5px;
+    transform: scaleY(0.4) scaleX(0.6);
 }
 
 .bottom-text {
     position: relative;
-    top: 670px;
+    top: 600px;
     font-size: 8px;
     text-align: justify;
 }
@@ -116,18 +119,20 @@ h1 {
     font-family: "lato", sans-serif;
     font-size: 8.5px;
     transform: scaleY(0.8) scaleX(0.8);
+    margin: -5px;
 }
 
 .scott-free {
     font-family: "Henny Penny", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 4px;
+    font-size: 2px;
+    letter-spacing: 1px;
 }
 
 h2 {
     position: relative;
-    top: 680px;
+    top: 10px;
     font-size: 15px;
     text-align: center;
     color: #ffffff;
@@ -138,4 +143,49 @@ h2 {
 
 .august {
     font-size: 25px;
+}
+
+.hollywood-records {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 0.5px;
+    width: fit-content;
+    font-size: 2px;
+}
+
+.left {
+    display: grid;
+    white-space: nowrap;
+    font-size: 2.5px;
+    line-height: 5px;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 6.5px;
+    width: 20px;
+    font-size: 2.5px;
+    line-height: 3.5px;
+    text-align: center;
+}
+
+/* 20th century studio logo*/
+
+.logo-container {
+    display: inline-flex;
+    font-family: "Voces", sans-serif;
+    white-space: nowrap;
+    align-items: center;
+    gap: 3px;
+    font-size: 1.25px;
+    margin-left: 80px;
+}
+
+#logo {
+    display: inline-block;
+    width: 12px;
+    height: auto;
 }
